@@ -48,8 +48,4 @@ python app.py
 На Windows/Mac для работы GUI понадобится X11 или VNC.
 ```bash
 docker build -t video-editor .
-docker run -it --rm     -e DISPLAY=$DISPLAY     -v /tmp/.X11-unix:/tmp/.X11-unix     video-editor
-```
-
-## Использование ИИ
-ИИ было использовано для реализации работы с файлами и частично для работы с видеорядом.
+docker run -it --rm     -e DISPLAY=$DISPLAY     -v /tmp/.X11-unix:/tmp/.X11-unix     video-
